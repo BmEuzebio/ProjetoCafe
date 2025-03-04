@@ -20,9 +20,9 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: hsl(0, 21%, 16%); /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #175030; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --default-color: #15492c; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: hsl(140, 100%, 10%); /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #00a54a; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -48,7 +48,7 @@
   --background-color: #060606;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #252525;
+  --surface-color: #000000;
   --contrast-color: #ffffff;
 }
 
@@ -1156,54 +1156,54 @@ section,
 }
 
 .services .service-item.item-cyan {
-  border-bottom: 3px solid #483200;
+  border-bottom: 3px solid #ffffff;
 }
 
 .services .service-item.item-cyan .icon {
-  color: #483200;
+  color: #175030;
   background: rgba(13, 202, 240, 0.1);
 }
 
 .services .service-item.item-cyan .read-more {
-  color: #483200;
+  color: #175030;
 }
 
 .services .service-item.item-cyan:hover {
-  background: #483200;
+  background: #175030;
 }
 
 .services .service-item.item-orange {
-  border-bottom: 3px solid #483200;
+  border-bottom: 3px solid #175030;
 }
 
 .services .service-item.item-orange .icon {
-  color: #483200;
+  color: #175030;
   background: rgba(253, 126, 20, 0.1);
 }
 
 .services .service-item.item-orange .read-more {
-  color: #483200;
+  color: #175030;
 }
 
 .services .service-item.item-orange:hover {
-  background: #483200;
+  background: #175030;
 }
 
 .services .service-item.item-teal {
-  border-bottom: 3px solid #483200;
+  border-bottom: 3px solid #175030;
 }
 
 .services .service-item.item-teal .icon {
-  color: #483200;
+  color: #175030;
   background: rgba(32, 201, 151, 0.1);
 }
 
 .services .service-item.item-teal .read-more {
-  color: #483200;
+  color: #175030;
 }
 
 .services .service-item.item-teal:hover {
-  background: #483200;
+  background: #175030;
 }
 
 .services .service-item.item-red {
